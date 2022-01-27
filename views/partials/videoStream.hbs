@@ -1,0 +1,18 @@
+
+<div class="container" id="videoStream" style="position:fixed; top:0; left:0;">
+    <div class="row">
+        <div class="input-group" id="inputStream">
+            <input type="text" class="form-control" 
+                name="remoteID" id="remoteID" 
+                placeholder="Input user ID" aria-label="">
+                <span class="input-group-btn">
+                    <button class="btn btn-success" id="btnCall" type="button" aria-label="">Video Call</button>
+                </span>
+                <span id="peerID">
+                    Your stream ID:
+                </span>
+        </div>
+        <video id="localStream" width="400"></video>
+        <video id="remoteStream" width="400"></video>
+    </div>
+</div>
